@@ -12,8 +12,7 @@ It includes clean preprocessing, model training with cross-validation, metrics, 
 - Reproducible, CLI-driven scripts (`src/train.py`, `src/infer.py`)
 
 ## 📦 Data
-Use the well-known **Telco Customer Churn** CSV (common on Kaggle/IBM).  
-Place your CSV at: `data/telecom_churn.csv`.
+CSV at: `data/telecom_churn.csv`.
 
 **Required columns:**  
 `Churn` (Yes/No), `gender`, `SeniorCitizen`, `Partner`, `Dependents`,  
@@ -21,13 +20,4 @@ Place your CSV at: `data/telecom_churn.csv`.
 `OnlineBackup`, `DeviceProtection`, `TechSupport`, `StreamingTV`, `StreamingMovies`,  
 `Contract`, `PaperlessBilling`, `PaymentMethod`, `MonthlyCharges`, `TotalCharges`
 
-> If your file uses different names, you can pass `--target` and `--drop-cols` to the scripts.
 
-## 🛠️ Setup
-```bash
-python -m venv .venv
-# Windows: .venv\Scripts\activate
-# macOS/Linux:
-source .venv/bin/activate
-
-pip install -r requirements.txt
