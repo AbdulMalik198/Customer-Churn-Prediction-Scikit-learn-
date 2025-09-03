@@ -15,7 +15,7 @@ It includes clean preprocessing, model training with cross-validation, metrics, 
 Use the well-known **Telco Customer Churn** CSV (common on Kaggle/IBM).  
 Place your CSV at: `data/telecom_churn.csv`.
 
-**Required columns (examples):**  
+**Required columns:**  
 `Churn` (Yes/No), `gender`, `SeniorCitizen`, `Partner`, `Dependents`,  
 `tenure`, `PhoneService`, `MultipleLines`, `InternetService`, `OnlineSecurity`,  
 `OnlineBackup`, `DeviceProtection`, `TechSupport`, `StreamingTV`, `StreamingMovies`,  
